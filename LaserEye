@@ -1,0 +1,126 @@
+<canvas id="ctx" width="500" height="500" style="border:1px solid #000000;"></canvas>
+ 
+<script>  
+var ctx = document.getElementById("ctx").getContext("2d");
+ctx.font = '30px Arial';
+ 
+var HEIGHT = 500;
+var WIDTH = 500;
+var message = 'Bouncing';
+ 
+//player
+var x = 50;
+var spdX = 30;
+var y = 40;
+var spdY = 5;
+var name = 'P';
+ 
+//enemy
+var enemy_x = 150;
+var enemy_spdX = 10;
+var enemy_y = 350;
+var enemy_spdY = 15;
+var enemy_name = 'E';
+ 
+//enemy2
+var enemy2_x = 200;
+var enemy2_spdX = 25;
+var enemy2_y = 150;
+var enemy2_spdY = 5;
+var enemy2_name = 'S';
+
+//enemy3
+var enemy3_x = 20;
+var enemy3_spdX = 20;
+var enemy3_y = 200;
+var enemy3_spdY = 10;
+var enemy3_name = 'A';
+ 
+ 
+setInterval(update,40);
+ 
+function update(){
+        //player
+        x += spdX;
+        y += spdY;
+		ctx.fillStyle="red"
+        //ctx.fillRect(x,y,50,50);
+        ctx.fillText("F",x,y);       
+               
+        if(x < 0 || x > WIDTH){
+                console.log(message);
+                spdX = -spdX;
+        }
+        if(y < 0 || y > HEIGHT){
+                console.log(message);
+                spdY = -spdY;
+        }
+       
+	   
+
+	   //enemy
+        enemy_x += enemy_spdX;
+        enemy_y += enemy_spdY;
+        ctx.beginPath();
+		ctx.moveTo(x,y);
+		ctx.lineTo(100,75);
+		ctx.lineTo(100,25);
+		ctx.fill();
+               
+               
+        if(enemy_x < 0 || enemy_x > WIDTH){
+                console.log(message);
+                enemy_spdX = -enemy_spdX;
+        }
+        if(enemy_y < 0 || enemy_y > HEIGHT){
+                console.log(message);
+                enemy_spdY = -enemy_spdY;
+        }
+		
+		
+		//enemy2
+        enemy2_x += enemy2_spdX;
+        enemy2_y += enemy2_spdY;
+        ctx.beginPath();
+		ctx.arc(75,75,50,0,Math.PI*2,true); // Outer circle
+		ctx.moveTo(x,y);
+		ctx.arc(75,75,35,0,Math.PI,false);  // Mouth (clockwise)
+		ctx.moveTo(x,y);
+		ctx.arc(60,65,5,0,Math.PI*2,true);  // Left eye
+		ctx.moveTo(x,y);
+		ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye
+		ctx.stroke();
+               
+               
+        if(enemy2_x < 0 || enemy2_x > WIDTH){
+                console.log(message);
+                enemy2_spdX = -enemy2_spdX;
+        }
+        if(enemy2_y < 0 || enemy2_y > HEIGHT){
+                console.log(message);
+                enemy2_spdY = -enemy2_spdY;
+        }
+       
+	   
+	  /* //enemy3
+        enemy3_x += enemy3_spdX;
+        enemy3_y += enemy3_spdY;
+        ctx.fillText(enemy3_name,enemy3_x,enemy3_y);
+               
+               
+        if(enemy3_x < 0 || enemy3_x > WIDTH){
+                console.log(message);
+                enemy3_spdX = -enemy3_spdX;
+        }
+        if(enemy3_y < 0 || enemy3_y > HEIGHT){
+                console.log(message);
+                enemy3_spdY = -enemy3_spdY;
+        }*/
+        
+}
+ 
+ 
+ 
+ 
+ 
+</script>
