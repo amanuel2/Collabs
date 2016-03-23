@@ -1,0 +1,47 @@
+{ 
+"count": 105, 
+"next": "http://127.0.0.1:8000/cutline/api/v1/cities/?page=2", 
+"previous": null, 
+"results": [ 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/1/", 
+"city_name": "Paris" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/2/", 
+"city_name": "Brussels" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/3/", 
+"city_name": "Mexico City" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/4/", 
+"city_name": "Guerrero" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/5/", 
+"city_name": "Seattle" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/6/", 
+"city_name": "Us" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/7/", 
+"city_name": "Acapulco" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/8/", 
+"city_name": "Budapest" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/9/", 
+"city_name": "Johannesburg" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/10/", 
+"city_name": "Ankara" 
+} 
+] 
+}
