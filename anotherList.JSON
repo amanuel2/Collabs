@@ -1,0 +1,93 @@
+{ 
+"count": 105, 
+"next": "http://127.0.0.1:8000/cutline/api/v1/cities/?page=2", 
+"previous": null, 
+"results": [ 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/1/", 
+"city_name": "Paris" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/2/", 
+"city_name": "Brussels" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/3/", 
+"city_name": "Mexico City" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/4/", 
+"city_name": "Guerrero" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/5/", 
+"city_name": "Seattle" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/6/", 
+"city_name": "Us" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/7/", 
+"city_name": "Acapulco" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/8/", 
+"city_name": "Budapest" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/9/", 
+"city_name": "Johannesburg" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/10/", 
+"city_name": "Ankara" 
+}, 
+
+{ 
+"count": 105, 
+"next": "http://127.0.0.1:8000/cutline/api/v1/cities/?page=3", 
+"previous": "http://127.0.0.1:8000/cutline/api/v1/cities/", 
+"results": [ 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/11/", 
+"city_name": "Eu" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/12/", 
+"city_name": "Curitiba" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/13/", 
+"city_name": "Berlin" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/14/", 
+"city_name": "Mosul" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/15/", 
+"city_name": "Srebrenica" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/16/", 
+"city_name": "Irvine" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/17/", 
+"city_name": "Sydney" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/18/", 
+"city_name": "Athens" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/19/", 
+"city_name": "Eidoméni" 
+}, 
+{ 
+"city_detail": "http://127.0.0.1:8000/cutline/api/v1/cities/20/", 
+"city_name": "Pyongyang" 
+} 
+] 
+}
